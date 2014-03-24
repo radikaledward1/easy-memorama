@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--
+ * @author Oscar Adrian Gonzalez Gamboa
+ * @contact: r_edward1@hotmail.com
+ * Last Update: 23.03.2014
+-->
+<html>
+    <head>
+        <title>Memorama v1.0.0</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!-- Librerias -->
+        <script type="text/javascript" src="corememorama.js"></script>
+        
+    </head>
+    <body onload="initialize()">
+        <div class="header_container">
+            <table border="1" align="center">
+                <tr>
+                    <td width="310" height="40" align="center">
+                        <input type=button id="btnplay" name="start" value="Play" onclick="startgame()">
+                    </td>
+                    <td width="310" height="40" align="center">
+                        <form name="timeform">
+                            <input type=text name="timetextarea" value="00:00:00" size="10" style = "font-size:20px" readonly="true">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="memorama_container">
+            <table border="1" align="center">
+                <tr>
+                    <td><img id="1" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="2" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="3" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="4" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="5" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                </tr>
+                <tr>
+                    <td><img id="6" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="7" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="8" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="9" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="10" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                </tr>
+                <tr>
+                    <td><img id="11" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="12" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="13" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="14" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="15" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                </tr>
+                <tr>
+                    <td><img id="16" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="17" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="18" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="19" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                    <td><img id="20" src="imagenes/diamante.png" width="120" height="120" alt="" onclick="flipcard(this)"/></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
